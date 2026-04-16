@@ -1,0 +1,45 @@
+@font-face{
+    font-family:'BitcountGridDouble';
+    src: url(font/BitcountGridDouble-Medium.ttf);
+    font-weight: normal;
+    }
+    @font-face{
+    font-family:'PlayfairDisplay';
+    src: url(font/PlayfairDisplay-Medium.ttf);
+    font-weight: normal;
+    }
+html{
+    background-color: aquamarine;
+}
+header{
+    background-image:url(img/img1.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+footer{
+    background-color: dodgerblue;
+    color: white;
+    text-align: left;
+
+}
+.h2uno{ 
+    color: darkcyan;
+}
+.h2dos{
+    color: royalblue;
+}
+.item1{
+    color: midnightblue;
+    font-weight: bold;
+}
+.item2{
+    color: darkblue;
+    font-weight: bold;
+}
+h1, h2, h3{
+    font-family:'BitcountGridDouble';
+}
+p, a{
+    font-family:'PlayfairDisplay';
+}
