@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPV interview edición TINI</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="flex-header">
+        <div class="logo">
+            <img src="img/img14.png" alt="Logo NPV" width="100">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#npv">#NPV</a></li>
+                <li><a href="#youtube">Youtube</a></li>
+                <li><a href="#faq">A&Q</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>
+                <span class="title-verde">NPV interview<br>edición TINI</span>
+            </h1>
+            <p>Las chicas de NPV se reunirán con una de las grandes<br>popstars de Argentina</p>
+            <p>Vive una experiencia única junto con NPV</p>
+            <div>
+                <a href="#formulario-inscripcion" class="btn-cta">Reservá tu lugar</a>
+            </div>
+        </section>
+
+        <div id="divisor-contador-arriba" class="contenedor-divisor">
+            <div class="divisor-eliptico forma"></div>
+        </div>
+
+        <section class="countdown-section">
+            <p>El evento se realizará en:</p>
+            <div class="timer">
+                <div class="time-unit">
+                    <span>0</span>
+                    <p>Días</p>
+                </div>
+                <div class="time-unit">
+                    <span>0</span>
+                    <p>Horas</p>
+                </div>
+                <div class="time-unit">
+                    <span>0</span>
+                    <p>Minutos</p>
+                </div>
+            </div>
+
+            <div class="features-grid">
+                <img src="img/img4.png" class="decoracion estrella" alt="decoracion">
+                <article class="card">
+                    <h3>Un evento sin igual</h3>
+                    <p>Sé parte de esta experiencia exclusiva, donde vas a poder ver a TINI desde cerca, escuchar su historia y vivir ese momento especial junto con Malu y Fran.
+Esta entrevista se vuelve un recuerdo inolvidable, en un ambiente íntimo y emocionante.</p>
+                </article>
+                <article class="card">
+                    <h3>El lado más humano</h3>
+                    <p>Conocé a la artista detrás del escenario pop. En esta entrevista, conocerás el otro punto de vista, compartirá anécdotas, experiencias de su carrera y polémicas. Es tu oportunidad conocer una nueva perspectiva de la cantante TINI.</p>
+                </article>
+                <article class="card">
+                    <h3>Cupos limitados</h3>
+                    <p>El evento será realizado en el teatro El Nacional, inscribite lo antes posible para asegurar tu asiento.</p>
+                </article>
+                <img src="img/img5.png" class="decoracion puntos" alt="decoracion">
+            </div>
+        </section>
+
+        <div id="divisor-contador-abajo" class="contenedor-divisor">
+            <div class="divisor-eliptico forma"></div>
+        </div>
+
+        <section class="info-section">
+            <div class="columna-textos-izquierda">
+                <div class="bloque-info">
+                    <span class="resaltado-png">¿Cómo participar?</span>
+                    <p>Ve al formulario completando tus datos y así confirmar tu inscripción. Una vez inscripto, recibirás por correo electrónico la confirmación y toda la información necesaria para poder asistir.</p>
+                </div>
+
+                <div class="bloque-info">
+                    <span class="resaltado-png">Información del evento</span>
+                    <div class="datos-evento">
+                        <div class="dato-item">
+                            <img src="img/img11.png" class="icono-png" alt="calendario">
+                            <p>23 de mayo</p>
+                        </div>
+                        <div class="dato-item">
+                            <img src="img/img12.png" class="icono-png" alt="hora">
+                            <p>16:00hs</p>
+                        </div>
+                        <div class="dato-item">
+                            <img src="img/img10.png" class="icono-png" alt="ubicacion">
+                            <p>El Nacional Sancor Seguros (Av. Corrientes 960, CABA)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor-tini-derecha">
+                <img src="img/img3.png" class="tini-principal" alt="Tini">
+            </div>
+        </section>
+
+        <div id="divisor-formulario-arriba" class="contenedor-divisor">
+            <div class="divisor-eliptico forma"></div>
+        </div>
+
+        <section id="formulario-inscripcion" class="form-wrapper">
+            <div id="contenedor-dinamico" class="form-container">
+                <h2>Reservá tu lugar</h2>
+                <form id="registro">
+                    <div class="control">
+                        <label for="user-email">E-mail</label>
+                        <input type="email" id="user-email" name="email" required>
+                    </div>
+                    <div class="control">
+                        <label for="user-name">Nombre</label>
+                        <input type="text" id="user-name" name="nombre" required>
+                    </div>
+                    <div class="control">
+                        <label for="user-lastname">Apellido</label>
+                        <input type="text" id="user-lastname" name="apellido" required>
+                    </div>
+                    <div class="control">
+                        <label for="user-age">Edad</label>
+                        <input type="number" id="user-age" name="edad" min="1" max="99" required>
+                    </div>
+                    <div class="control dni-group">
+                        <label for="dni-num">DNI</label>
+                        <div class="dni-inputs">
+                            <select id="dni-tipo" name="dni-tipo">
+                                <option value="dni">DNI</option>
+                                <option value="pasaporte">PAS</option>
+                            </select>
+                            <input type="text" id="dni-num" name="dni-num" required>
+                        </div>
+                    </div>
+                    <div class="control radio-group">
+                        <p>¿Sos mayor de edad?</p>
+                        <div class="radio-options">
+                            <label><input type="radio" name="mayor" value="si"> Sí</label>
+                            <label><input type="radio" name="mayor" value="no"> No</label>
+                        </div>
+                    </div>
+                    <div class="botones-form">
+                        <button type="submit" id="send">Enviar</button>
+                        <button type="button" id="btn-borrar">Borrar</button>
+                        <button type="button" id="btn-ocultar">Ocultar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Más información</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: white; text-decoration: none;">Inicio</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Contacto</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Términos y condiciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <a href="#" class="social-link">
+                    <div class="social-item">
+                        <img src="img/img8.png" class="bg-circle" alt="">
+                        <img src="img/img9.png" class="icon-social" alt="Youtube">
+                    </div>
+                </a>
+                <a href="#" class="social-link">
+                    <div class="social-item">
+                        <img src="img/img8.png" class="bg-circle" alt="">
+                        <img src="img/img7.png" class="icon-social" alt="TikTok">
+                    </div>
+                </a>
+                <a href="#" class="social-link">
+                    <div class="social-item">
+                        <img src="img/img8.png" class="bg-circle" alt="">
+                        <img src="img/img6.png" class="icon-social" alt="Instagram">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <p class="copyright">© 2026 NuestroPuntodeVista, All Right Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
